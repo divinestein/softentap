@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<!-- SoftenTap article template. Copy to articles/<slug>.html, replace every {{...}}, then follow README "Adding a new guide". -->
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{TITLE}} | SoftenTap</title>
+  <meta name="description" content="{{DESCRIPTION}}">
+  <link rel="canonical" href="https://softentap.com/articles/{{SLUG}}.html">
+  <meta name="robots" content="noindex">  <!-- DELETE this line when you copy the template -->
+  <meta name="theme-color" content="#0d1b2a">
+  <link rel="icon" href="../favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="../fonts/fraunces-var.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="../fonts/inter-var.woff2" as="font" type="font/woff2" crossorigin>
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="{{TITLE}} | SoftenTap">
+  <meta property="og:description" content="{{DESCRIPTION}}">
+  <meta property="og:url" content="https://softentap.com/articles/{{SLUG}}.html">
+  <meta property="og:site_name" content="SoftenTap">
+  <meta property="og:image" content="https://softentap.com/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{TITLE}} | SoftenTap">
+  <meta name="twitter:description" content="{{DESCRIPTION}}">
+  <meta name="twitter:image" content="https://softentap.com/og-image.png">
+  <link rel="stylesheet" href="../css/styles.css?v=2">
+  <script>document.documentElement.classList.add("js")</script>
+  <script src="../js/site.js?v=2" defer></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "{{H1}}",
+  "description": "{{DESCRIPTION}}",
+  "datePublished": "{{YYYY-MM-DD}}",
+  "dateModified": "{{YYYY-MM-DD}}",
+  "inLanguage": "en-US",
+  "author": {
+    "@type": "Organization",
+    "name": "SoftenTap",
+    "url": "https://softentap.com/"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "SoftenTap",
+    "url": "https://softentap.com/"
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://softentap.com/articles/{{SLUG}}.html"
+  },
+  "url": "https://softentap.com/articles/{{SLUG}}.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://softentap.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Guides",
+      "item": "https://softentap.com/guides.html"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "{{SHORT TITLE}}",
+      "item": "https://softentap.com/articles/{{SLUG}}.html"
+    }
+  ]
+}
+</script>
+</head>
+  <div class="progress" aria-hidden="true"></div>
+<body>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="brand" href="../index.html" aria-label="SoftenTap home">
+        <svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M20 3.2C20 3.2 8 16.6 8 25a12 12 0 0 0 24 0C32 16.6 20 3.2 20 3.2z" fill="#0d1b2a"/><path d="M10.4 27.2c2.4-1.9 4.8-1.9 7.2 0s4.8 1.9 7.2 0c1.6-1.2 3.1-1.6 4.6-1" fill="none" stroke="#2bb3ad" stroke-width="2.5" stroke-linecap="round"/><path d="M15 20.2c.5-2.5 1.7-4.7 3.1-6.6" fill="none" stroke="#ffffff" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/></svg>
+        <span class="brand-name">Soften<span>Tap</span></span>
+      </a>
+      <button class="menu-btn" type="button" aria-expanded="false" aria-controls="site-nav"><span class="menu-icon" aria-hidden="true"></span>Menu</button>
+      <nav class="site-nav" id="site-nav" aria-label="Primary">
+        <ul><li><a href="../guides.html" aria-current="page">Guides</a></li><li><a href="../about.html">About</a></li><li><a href="../disclosure.html">Disclosure</a></li><li><a href="../contact.html">Contact</a></li><li><a class="nav-cta" href="../articles/read-water-hardness-report.html#converter">Hardness converter</a></li></ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <header class="article-hero">
+      <div class="wrap">
+        <nav class="crumbs" aria-label="Breadcrumb"><ol><li><a href="../index.html">Home</a></li><li><a href="../guides.html">Guides</a></li><li aria-current="page">{{SHORT TITLE}}</li></ol></nav>
+        <p class="eyebrow">{{CATEGORY: Hardness basics | Comparisons | Buying decisions | Costs | City guides}}</p>
+        <h1>{{H1}}</h1>
+        <p class="lede">{{DEK: one or two sentences, usually the meta description}}</p>
+        <div class="meta">
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="4" y="5" width="16" height="15" rx="2.5"/><path d="M4 10h16M8.5 3v4M15.5 3v4"/></svg><span>Reviewed <time datetime="{{YYYY-MM-DD}}">{{Month D, YYYY}}</time></span></span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg>{{N}} min read</span>
+          <span><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9 6h11M9 12h11M9 18h11"/><circle cx="4.5" cy="6" r="1"/><circle cx="4.5" cy="12" r="1"/><circle cx="4.5" cy="18" r="1"/></svg>{{N}} cited sources</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="wrap article-layout">
+      <aside class="toc" aria-label="On this page">
+        <details open>
+          <summary>On this page</summary>
+          <p class="toc-title">On this page</p>
+          <ol><li><a href="#first-section">First section</a></li><li><a href="#second-section">Second section</a></li><li><a href="#sources">Sources</a></li></ol>
+        </details>
+      </aside>
+
+      <article class="prose" data-progress>
+<!-- ARTICLE BODY START -->
+<p>{{Intro: answer the reader's question in the first two or three sentences.}}</p>
+
+<div class="note">
+  <p class="note-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M9.5 3h5M10 3v6l-5 9.5A1.7 1.7 0 0 0 6.5 21h11a1.7 1.7 0 0 0 1.5-2.5L14 9V3"/><path d="M7.5 15h9"/></svg>How we sourced this</p>
+  <p>{{Say plainly what we did and did not test, and where the figures come from.}}</p>
+</div>
+
+<aside class="takeaways" aria-label="Key takeaways">
+  <p class="takeaways-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4.5 12.5l4.5 4.5L19.5 6.5"/></svg>Key takeaways</p>
+  <ul>
+    <li>{{3 to 4 short, factual points taken from the body below.}}</li>
+  </ul>
+</aside>
+
+<h2 id="first-section">First section</h2>
+<p>Body copy.</p>
+
+<div class="table-wrap">
+<table>
+  <caption class="muted">{{Table caption}}</caption>
+  <thead><tr><th>Column</th><th>Column</th></tr></thead>
+  <tbody><tr><td>Row label</td><td>Value</td></tr></tbody>
+</table>
+</div>
+
+<h2 id="second-section">Second section</h2>
+<div class="warn">
+  <p class="warn-label"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M12 4l9 15.5H3z"/><path d="M12 10v4.5M12 17h.01"/></svg>Caution</p>
+  <p>{{Optional safety or code caution, with its source.}}</p>
+</div>
+
+<div class="affiliate-box">
+  <h2 class="visually-hidden" id="where-to-buy">Where to buy</h2>
+  <p><strong>Affiliate links.</strong> We have not tested these products. {{Say which links are live affiliate links (paid links) and which are placeholders.}} See our <a href="../disclosure.html">affiliate disclosure</a>.</p>
+  <ul>
+    <li><a href="https://www.waterdropfilter.com/?ref=illseqld&amp;utm_medium=affiliate&amp;utm_source=goaffpro" rel="sponsored nofollow noopener" target="_blank">{{Product or range}} (affiliate link)</a></li>
+    <li><a href="#affiliate-example" rel="sponsored nofollow">{{Program not yet approved}} (placeholder)</a></li>
+  </ul>
+</div>
+
+<h2 id="sources">Sources</h2>
+<ul class="sources">
+  <li>{{Publisher}}, <a href="https://example.gov/">{{Title}}</a>, {{what it supports}}.</li>
+</ul>
+<!-- ARTICLE BODY END -->
+
+        <section class="editorial" aria-labelledby="about-this-guide">
+          <div class="editorial-mark"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M20 3.2C20 3.2 8 16.6 8 25a12 12 0 0 0 24 0C32 16.6 20 3.2 20 3.2z" fill="#ffffff"/><path d="M10.4 27.2c2.4-1.9 4.8-1.9 7.2 0s4.8 1.9 7.2 0c1.6-1.2 3.1-1.6 4.6-1" fill="none" stroke="#2bb3ad" stroke-width="2.5" stroke-linecap="round"/><path d="M15 20.2c.5-2.5 1.7-4.7 3.1-6.6" fill="none" stroke="#0d1b2a" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/></svg></div>
+          <div>
+            <h2 id="about-this-guide">About this guide</h2>
+            <p>Written and reviewed by the SoftenTap editors. We have not tested products in a lab or in homes. Every figure on this page comes from the public sources listed above.</p>
+            <p>Spotted an error or a newer figure? Email <a href="mailto:support@softentap.com">support@softentap.com</a> with the page and your source. Read our <a href="../about.html#standards">editorial standards</a> and <a href="../disclosure.html">affiliate disclosure</a>.</p>
+          </div>
+        </section>
+      </article>
+    </div>
+
+    <section class="related section" aria-labelledby="keep-reading">
+      <div class="wrap">
+        <p class="eyebrow">Keep reading</p>
+        <h2 id="keep-reading">Related guides</h2>
+        <!-- Related: keep 2 or 3 tiles pointing at the closest guides. Icons: copy from index.html. -->
+        <div class="related-grid"><a class="tile" href="../articles/softener-vs-conditioner-vs-filter-vs-ro.html" data-reveal style="--d:0.0s"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><rect x="5" y="6" width="6" height="15" rx="3"/><path d="M8 3v3"/><rect x="14" y="11" width="6" height="10" rx="1.5"/><path d="M11 9h3v2"/><path d="M5 13h6"/></svg></span><span class="tag">Comparisons</span><h3>Softener, conditioner, filter or RO?</h3><p>Only a salt-based softener removes hardness. Conditioners, carbon filters and under-sink RO each solve a different problem. Here is the plain split, with the certification that applies to each.</p><span class="go">Read the guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a><a class="tile" href="../articles/do-you-need-a-softener-at-8-gpg.html" data-reveal style="--d:0.08s"><span class="icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M4 17a8 8 0 1 1 16 0"/><path d="M12 17l4-5"/><circle cx="12" cy="17" r="1.3"/><path d="M6.5 11.5l1 .8M12 8.5v1.2M17.5 11.5l-1 .8"/></svg></span><span class="tag">Buying decisions</span><h3>Do you need a softener at about 8 gpg?</h3><p>About 8 grains per gallon is hard on the USGS scale, not very hard. On many city supplies, including WaterOne’s, a softener is a comfort and maintenance choice rather than a safety need.</p><span class="go">Read the guide <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span></a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="../index.html" aria-label="SoftenTap home"><svg class="brand-mark" viewBox="0 0 40 40" aria-hidden="true" focusable="false"><path d="M20 3.2C20 3.2 8 16.6 8 25a12 12 0 0 0 24 0C32 16.6 20 3.2 20 3.2z" fill="#ffffff"/><path d="M10.4 27.2c2.4-1.9 4.8-1.9 7.2 0s4.8 1.9 7.2 0c1.6-1.2 3.1-1.6 4.6-1" fill="none" stroke="#2bb3ad" stroke-width="2.5" stroke-linecap="round"/><path d="M15 20.2c.5-2.5 1.7-4.7 3.1-6.6" fill="none" stroke="#0d1b2a" stroke-opacity=".6" stroke-width="2" stroke-linecap="round"/></svg><span class="brand-name">Soften<span>Tap</span></span></a>
+          <p>Plain-spoken, cited guides to hard water, softeners, conditioners, filters and reverse osmosis. Questions or corrections: <a href="mailto:support@softentap.com">support@softentap.com</a>.</p>
+        </div>
+        <nav class="footer-col" aria-label="Guides">
+          <h2>Guides</h2>
+          <ul><li><a href="../articles/read-water-hardness-report.html">Reading a hardness report</a></li><li><a href="../articles/softener-vs-conditioner-vs-filter-vs-ro.html">Softener vs conditioner vs filter vs RO</a></li><li><a href="../articles/do-you-need-a-softener-at-8-gpg.html">Softener at about 8 gpg?</a></li><li><a href="../guides.html">All guides</a></li></ul>
+        </nav>
+        <nav class="footer-col" aria-label="Footer">
+          <h2>SoftenTap</h2>
+          <ul>
+            <li><a href="../about.html">About</a></li>
+            <li><a href="../about.html#standards">Editorial standards</a></li>
+            <li><a href="../disclosure.html">Affiliate disclosure</a></li>
+            <li><a href="../privacy.html">Privacy</a></li>
+            <li><a href="../contact.html">Contact</a></li>
+            <li><a href="../sitemap.xml">Sitemap</a></li>
+          </ul>
+        </nav>
+      </div>
+      <p class="disclaimer">SoftenTap publishes cited guides to hard water and home water treatment at softentap.com. We have not tested products in a lab or in homes. Some links may be affiliate links. As an Amazon Associate I earn from qualifying purchases. See our <a href="../disclosure.html">affiliate disclosure</a>. This is general information, not plumbing, medical, or water-treatment advice.</p>
+      <p class="copyright">© 2026 SoftenTap</p>
+    </div>
+  </footer>
+</body>
+</html>
