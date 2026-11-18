@@ -6,8 +6,8 @@ First version of a fast, mobile-first affiliate/how-to site about home water tre
 
 - Ready to push to GitHub Pages later. **Do not publish yet.**
 - The custom domain in `CNAME` is the apex, `softentap.com`. Canonical URLs use `https://softentap.com`.
-- No tracking scripts, no analytics, no live affiliate programs.
-- Product links use placeholder hrefs such as `#affiliate-aquasana`.
+- No tracking scripts, no analytics.
+- Waterdrop product links use the live affiliate URL. Other product links still use placeholder hrefs such as `#affiliate-aquasana`.
 
 ## Local preview
 
