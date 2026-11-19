@@ -65,6 +65,9 @@ After DNS has propagated, you can turn on **Enforce HTTPS** in the repository Pa
 - `articles/read-water-hardness-report.html` (includes the ppm → gpg converter, `#converter`)
 - `articles/softener-vs-conditioner-vs-filter-vs-ro.html`
 - `articles/do-you-need-a-softener-at-8-gpg.html`
+- `articles/what-size-water-softener.html`
+
+Published topics are logged in `TOPICS.md`.
 
 Articles cite public sources. SoftenTap has not tested products.
 
