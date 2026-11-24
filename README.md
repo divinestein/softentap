@@ -7,7 +7,7 @@ A fast, mobile-first affiliate/how-to site about home water treatment, published
 - Live on GitHub Pages from `main`. Design changes are staged on a branch and reviewed before merging.
 - The custom domain in `CNAME` is the apex, `softentap.com`. Canonical URLs use `https://softentap.com`.
 - No tracking scripts, no analytics, no third-party fonts or CDNs.
-- Waterdrop product links use the live affiliate URL. Other product links still use placeholder hrefs such as `#affiliate-aquasana`.
+- Waterdrop and Epic Water Filters product links use live affiliate URLs. Other product links still use placeholder hrefs such as `#affiliate-aquasana`.
 
 ## Local preview
 
@@ -102,7 +102,7 @@ Icons are inline 24×24 line SVGs (stroke `currentColor`, width 1.7). Copy them 
 2. Replace every `{{…}}` placeholder: title, meta description (also used for OG/Twitter and as the dek under the H1), canonical/OG URL, JSON-LD headline + dates, breadcrumb short title, category eyebrow, reviewed date.
 3. Write the body between `<!-- ARTICLE BODY START -->` and `<!-- ARTICLE BODY END -->`. Give every `<h2>` an `id` and list the same ids in the "On this page" `<ol>` in the TOC. The last section is always `id="sources"`.
 4. Set the meta line honestly: minutes = body word count ÷ 230 (rounded), and the number of items in `ul.sources`.
-5. Affiliate links: only programs that have approved us get a live link. Live links use `rel="sponsored nofollow noopener" target="_blank"` and end with "(affiliate link)". Unapproved programs use `href="#affiliate-<name>" rel="sponsored nofollow"` and "(placeholder)". Keep the on-page disclosure paragraph in the `affiliate-box`. The footer Amazon sentence is already in the template; never remove it.
+5. Affiliate links: only programs that have approved us get a live link. Approved programs as of November 24, 2026: **Waterdrop** (under-sink and countertop filters and RO) and **Epic Water Filters** (pitchers, under-sink and whole-house filters; official PMX link `https://pmx-production.herokuapp.com/affiliate-link/WZHGJLOQKR`). Use a live link only where that product type genuinely fits the guide — for example, add Epic on filter or city-water guides, not on a softener-sizing article. Live links use `rel="sponsored nofollow noopener" target="_blank"` and end with "(affiliate link)". Unapproved programs use `href="#affiliate-<name>" rel="sponsored nofollow"` and "(placeholder)". Keep the on-page disclosure paragraph in the `affiliate-box`. The footer Amazon sentence is already in the template; never remove it.
 6. Update "Related guides" tiles (2–3 nearest guides), add a tile to `guides.html` (newest first) and, if it fits, to the footer "Guides" list.
 7. Add the URL to `sitemap.xml` with today's `lastmod`.
 8. Style rules for copy: plain sentences, no emoji bullets, no "unlock / dive in / in today's world" phrasing, no invented tests, stats, testimonials or awards. Every number needs a source in the list.
