@@ -66,6 +66,8 @@ After DNS has propagated, you can turn on **Enforce HTTPS** in the repository Pa
 - `articles/softener-vs-conditioner-vs-filter-vs-ro.html`
 - `articles/do-you-need-a-softener-at-8-gpg.html`
 - `articles/what-size-water-softener.html`
+- `articles/kansas-city-mo-water-hardness.html`
+- `articles/do-you-need-a-softener-at-10-to-15-gpg.html`
 
 Published topics are logged in `TOPICS.md`.
 

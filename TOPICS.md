@@ -4,6 +4,7 @@ Published guides, newest first. Check here before picking a topic so nothing is 
 
 | Date | Guide | File | Cluster |
 | --- | --- | --- | --- |
+| 2026-11-25 | Do You Need a Water Softener at 10 to 15 Grains per Gallon? | `articles/do-you-need-a-softener-at-10-to-15-gpg.html` | gpg decision pages |
 | 2026-11-23 | Kansas City, MO Water Hardness: What KC Water’s Numbers Mean for a Softener | `articles/kansas-city-mo-water-hardness.html` | City / utility reports |
 | 2026-11-18 | What Size Water Softener Do You Need? The Grain Math, Worked Out | `articles/what-size-water-softener.html` | Sizing |
 | 2026-11-18 | Do You Need a Water Softener at About 8 Grains per Gallon? | `articles/do-you-need-a-softener-at-8-gpg.html` | gpg decision pages |
@@ -11,7 +12,7 @@ Published guides, newest first. Check here before picking a topic so nothing is 
 | 2026-11-18 | How to read your water hardness report (WaterOne example) | `articles/read-water-hardness-report.html` | City / utility reports |
 
 ## Next candidates
-- Is 10 / 12 / 15 gpg enough to need a softener? (gpg cluster)
-- Softener operating cost at 8 vs 15 vs 25 gpg (salt + regeneration water, cited figures only)
+- More gpg/ppm decision pages: 20–25 gpg, “is 150 / 200 ppm enough to soften?”, “10 gpg plus iron” (10–15 gpg done 2026-11-25)
+- Softener operating cost at 8 vs 15 vs 25 gpg (salt + regeneration water, cited figures only; 10/12/15 gpg salt table now on the 10–15 gpg page, so focus on full cost vs conditioner vs no treatment)
 - More Kansas City–area utility CCR walkthroughs (Olathe, Independence, Lee’s Summit) — KC Water done 2026-11-23
 - Lead in KC-area tap water: reading the 90th-percentile line and choosing a certified filter
